@@ -1,0 +1,27 @@
+thread until 13
+thread step-in
+expr tab[0] = tab[1]
+thread until 13
+thread step-in
+expr int $foo = tab[1]
+thread until 13
+thread step-in
+expr tab[2] = tab[1]
+expr tab[1] = $foo
+thread until 16
+expr count = 0
+thread until 17
+thread step-in
+thread until 27
+expr tmp = min[0] + min[1] + min[2]
+thread until 28
+thread step-in
+thread step-in
+thread step-in
+thread until 35
+expr i = 0
+thread until 37
+expr biggest = (biggest <= min[0]) ? min[0] : biggest
+expr biggest = (biggest <= min[1]) ? min[1] : biggest
+expr biggest = (biggest <= min[2]) ? min[2] : biggest
+thread continue

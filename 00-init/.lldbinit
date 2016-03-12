@@ -1,0 +1,10 @@
+setting set prompt (jcazako)
+settings set target.x86-disassembly-flavor intel
+script print "\033[31m    jjjjjjjjj  cccccccc  aaaaaaaa  zzzzzzzz  aaaaaaaa  kkk   kkk  oooooooo  \033[0m"
+script print "\033[31m       jjj     cccccccc  aaaaaaaa  zzzzzzzz  aaaaaaaa  kkk  kkk   oooooooo  \033[0m"
+script print "\033[31m       jjj     ccc       aa    aa      zzz   aa    aa  kkkkkkk    oo    oo  \033[0m"
+script print "\033[31m       jjj     ccc       aaaaaaaa    zzz     aaaaaaaa  kkkkk      oo    oo  \033[0m"
+script print "\033[31m       jjj     ccc       aa    aa  zzz       aa    aa  kkkkkk     oo    oo  \033[0m"
+script print "\033[31m       jjj     ccccccc   aa    aa  zzzzzzz   aa    aa  kkk  kkk   oooooooo  \033[0m"
+script print "\033[31m   jjjjjjj     ccccccc   aa    aa  zzzzzzz   aa    aa  kkk   kkk  oooooooo  \033[0m"
+
